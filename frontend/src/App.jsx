@@ -1,13 +1,9 @@
 import './App.css'
-import MovieCard from './components/MovieCard'
+import Home from './pages/Home'
 
 function App() {
-
-  return (
-    <>
-      <MovieCard movie ={{title: "Rais film", release_date: "2025"}}/>
-    </>
-  )
+  console.log("App loaded")
+  return <Home />
 }
 
 export default App
